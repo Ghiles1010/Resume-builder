@@ -1,28 +1,46 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+
+
+    <CV/>
+
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
+import CV from './views/CV.vue'
+
+
+// import  jsPDF  from "jspdf"
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    CV,
+  },
+
+  
 }
 </script>
 
 <style>
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+  width: 100%;
 }
+
+*{
+  font-family: Ubuntu;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  font-size: 8pt;
+}
+
 </style>
+
+

@@ -1,0 +1,191 @@
+{
+    "education":{
+        "title":"Education",
+        "content" : [
+            {
+                "title": "Master degree - Intelligent Computer Systems",
+                "school": "University of Science and Technology of Babezouar",
+                "start_date" : "09/2020",
+                "end_date" : "06/2022",
+                "itemize":  {
+                    "title" : "Main courses",
+                    "items" : [
+                        "Machine Learning",
+                        "Metaheuristics",
+                        "Agent Technology",
+                        "Data Mining",
+                        "NLP",
+                        "Computer Vision",
+                        "Problem Solving",
+                        "Markov Chains"
+                    ]     
+                }
+            },
+
+            {
+                "title": "Bachelor's degree - Computer Science",
+                "school": "University of Science and Technology of Babezouar",
+                "start_date" : "09/2017",
+                "end_date" : "10/2020",
+                "itemize":  {
+                    "title" : "Main courses",
+                    "items" : [
+                        "Software Engineering",
+                        "Semantic Web",
+                        "Operating Systems",
+                        "Web Scraping",
+                        "Computer Architectures",
+                        "Mathematics"
+                    ]     
+                } 
+            },
+
+            {
+                "title": "Scientific Baccalaureate",
+                "school": "Ali Boumenjel High School",
+                "start_date" : "09/2014",
+                "end_date" : "06/2017",
+                "itemize":{
+                    "title" : "Mention",
+                    "items" : ["Good"]
+                }     
+            }
+        ]
+    },
+
+    "experience":{
+        "title":"Experience",
+        "content":[
+            {
+                "title": "Artificial Intelligence Developer Intern",
+                "entity": "Data Genius",
+                "start_date" : "01/2022",
+                "end_date" : "Present",
+                "location": "Lyon, France (remote)",
+                "itemize":{
+                    "title" : "Tasks",
+                    "items" : [
+                        "I'm working on an API to perform conversation summarization and clustering"
+                    ]
+                }
+            },
+
+            {
+                "title": "IT Department and Project Manager",
+                "entity": "Google Developer Student Club",
+                "start_date" : "09/2021",
+                "end_date" : "Present",
+                "description" : "GDSC is a science club affliated with Google to promote technology to young people",
+                "itemize":{
+                    "title" : "Tasks",
+                    "items" : [
+                        "I supervise the IT sections, namely: IA section, web dev, game dev, security, etc"
+                    ]
+                }
+            },
+
+            {
+                "title": "Project Manager",
+                "entity": "Open Minds Club",
+                "start_date" : "09/2020",
+                "end_date" : "09/2021",
+                "description" : "Open minds is a scientific club that contributes to the open source community.",
+                "itemize":{
+                    "title" : "Tasks",
+                    "items" : [
+                        "I lead a team. We work on open source projects for the benefit of society."
+                    ]
+                }
+            }
+        ]
+    },
+
+    "skills":{
+        "title":"Skills",
+        "content":[
+            "Project Management",
+            "Team Management",
+            "Leadership",
+            "Image Editing",
+            "Video Editing",
+            "Git",
+            "Django",
+            "Vue.js"  
+        ]
+    },
+
+    "projects":{
+        "title":"Projects",
+        "content": [
+            {
+                "title": "Inteligent Traffic Light Control System",
+                "description" : "My team and I were selected to participate in a national AI competition (AIMx). We designed and developed an intelligent system to control traffic lights to reduce waiting time. The main AI techniques used for this project are deep reinforcement learning and computer vision."
+            },
+
+            {
+                "title": "Swarm Robotics for Precision Farming",
+                "description" : "With my team, we have designed a system of robots that can work together to perform precision farming operations. This project brings together several AI techniques, including metaheuristic algorithms, computer vision, etc."
+            },
+
+            {
+                "title": "Recommandation System",
+                "description" : "I designed and developed a service recommendation system for the YELP platform. This system recommends to users services that meet their expectations. Several algorithms have been designed and implemented, including a semantic algorithm based on ontologies, an algorithm based on NLP, and a hybridization between the two."
+            },
+
+            {
+                "title": "Web Application for Sharing Services",
+                "description" : "I designed and developed an application for the Algerian market that allows sharing services such as plumbers, doctors, lawyers, etc. It allows users to easily find the services they need, and increase the visibility of service providers."
+            }
+        ]
+    },
+
+    "certifications":{
+        "title":"Certifications",
+        "content":[
+            {
+                "title": "Data Science - Samsung Innovation Campus",
+                "description":"I  received a scholarship fully funded by Samsung Algeria to intensively study Data Science during 3 months. In particular. Statistics, Probabilities, Machine Learning and Deep Learning"
+            }
+        ]
+    },
+
+    "achievements":{
+        "title":"Achievements",
+        "content":[
+            {
+                "title": "Algerian Robot Cup - Final Qualifier",
+                "description":"Algerian Robot Cup is a competition of robotics and artificial intelligence, My team and I are qualified for the final qualifier that will be held and a few weeks"
+            },
+
+            {
+                "title": "Algeria Disrupt - Constantine, 3rd place",
+                "description":"Algeria disrupt is a yearly event organized by the ministry to encourage new technologies, we have been chosen as being the third-best project if the AI thematic"
+            },
+
+            {
+                "title": "Hult Prize USTHB, 2nd place",
+                "description":"Hult prize is a social entrepreneurship competition, we have designed an AI to predict food waste along distribution chains in order to recover them before they are lost"
+            }
+        ]
+    },
+
+    "languages":{
+        "title":"Languaes",
+        "content":[
+            {"name" : "French", "level" : "Billingual (TCF 699/699)"},
+            {"name" : "English", "level" : "Proficient IELTS (7/9)"},
+            {"name" : "Arabic", "level" : "Proficient"}
+        ]
+    },
+
+    "interests":{
+        "title":"Interests",
+        "content": [
+            "Chess",
+            "Guitar",
+            "Sport",
+            "Reading",
+            "Drawing"
+        ]
+    }
+}

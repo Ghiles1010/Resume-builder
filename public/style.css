@@ -1,0 +1,27 @@
+:root {
+    --clr-primary: #449399;
+    --clr-secondary: #313C4E;
+    --clr-gray: #989DA6;
+
+    --rect-height: 3.5rem;
+    --rect-width: 2.5rem;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+body{
+    min-height:297mm;
+    min-width:210mm;
+    max-height: 297mm;
+    max-width: 210mm;
+    overflow: scroll;
+}
+
+@font-face {
+    font-family: 'Ubuntu';
+    src: local('Ubuntu');
+}
