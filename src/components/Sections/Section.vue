@@ -46,7 +46,9 @@ export default {
     h2 {
         margin-left:  10pt;
         font-size: 14pt;
-        font-weight: 500;
+        font-weight: bold;
+        font-family: Helvetica;
+
     }
 
 </style>

@@ -1,12 +1,26 @@
 {
+
+    "personnal":{
+        "first_name":"Aghiles",
+        "last_name":"DJEBARA",
+        "title":"Artificial Intelligence Student",
+        "description":"Having been accepted to pursue the Master 2 Machine Learning for Data Science at the University of Paris, I am currently looking for an internship starting in October.",
+        "email":"djebaraghiles@gmail.com",
+        "location":"Algeria, Algiers",
+        "phone":"06-66-74-34-20",
+        "linkedin":"https://www.linkedin.com/in/ghiles-djebara-7005b417a/",
+        "github":"https://github.com/Ghiles1010"
+    },
+
     "education":{
         "title":"Education",
         "content" : [
+
             {
-                "title": "Master degree - Intelligent Computer Systems",
+                "title": "Master 2 degree - Intelligent Computer Systems",
                 "school": "University of Science and Technology of Babezouar",
                 "start_date" : "09/2020",
-                "end_date" : "06/2022",
+                "end_date" : "Present",
                 "itemize":  {
                     "title" : "Main courses",
                     "items" : [
@@ -58,7 +72,7 @@
         "content":[
             {
                 "title": "Artificial Intelligence Developer Intern",
-                "entity": "Data Genius",
+                "entity": "Eden AI",
                 "start_date" : "01/2022",
                 "end_date" : "Present",
                 "location": "Lyon, France (remote)",
@@ -101,7 +115,7 @@
     },
 
     "skills":{
-        "title":"Skills",
+        "title":"Other Skills",
         "content":[
             "Project Management",
             "Team Management",
@@ -118,6 +132,11 @@
         "title":"Projects",
         "content": [
             {
+                "title" : "Automatic text summarization and clustering",
+                "description": "This project consits in taking a set of conversations as an input, summarizing each one of them and then clustering them into a set of topics. Each cluster is finally labeled using a Keyword Extraction algorithm. The main technologies involvled are : transformers, spaCy, pytorch, etc"	
+            },
+
+            {
                 "title": "Inteligent Traffic Light Control System",
                 "description" : "My team and I were selected to participate in a national AI competition (AIMx). We designed and developed an intelligent system to control traffic lights to reduce waiting time. The main AI techniques used for this project are deep reinforcement learning and computer vision."
             },
@@ -130,11 +149,6 @@
             {
                 "title": "Recommandation System",
                 "description" : "I designed and developed a service recommendation system for the YELP platform. This system recommends to users services that meet their expectations. Several algorithms have been designed and implemented, including a semantic algorithm based on ontologies, an algorithm based on NLP, and a hybridization between the two."
-            },
-
-            {
-                "title": "Web Application for Sharing Services",
-                "description" : "I designed and developed an application for the Algerian market that allows sharing services such as plumbers, doctors, lawyers, etc. It allows users to easily find the services they need, and increase the visibility of service providers."
             }
         ]
     },
@@ -154,7 +168,7 @@
         "content":[
             {
                 "title": "Algerian Robot Cup - Final Qualifier",
-                "description":"Algerian Robot Cup is a competition of robotics and artificial intelligence, My team and I are qualified for the final qualifier that will be held and a few weeks"
+                "description":"Algerian Robot Cup is a competition of robotics and artificial intelligence, My team and I are qualified for the final qualifier that will be held and a few weeks from now."
             },
 
             {
@@ -170,7 +184,7 @@
     },
 
     "languages":{
-        "title":"Languaes",
+        "title":"Languages",
         "content":[
             {"name" : "French", "level" : "Billingual (TCF 699/699)"},
             {"name" : "English", "level" : "Proficient IELTS (7/9)"},

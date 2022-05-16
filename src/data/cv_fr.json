@@ -1,0 +1,205 @@
+{
+
+    "personnal":{
+        "first_name":"Aghiles",
+        "last_name":"DJEBARA",
+        "title":"Étudiant en Intelligence Artificielle",
+        "description":"Ayant été accepté pour poursuivre le Master 2 Machine Learning for Data Science à l'Université de Paris, je suis actuellement à la recherche d'un stage à partir d'octobre.",
+        "email":"djebaraghiles@gmail.com",
+        "location":"Algeria, Algiers",
+        "phone":"06-66-74-34-20",
+        "linkedin":"https://www.linkedin.com/in/ghiles-djebara-7005b417a/",
+        "github":"https://github.com/Ghiles1010"
+    },
+
+    "education":{
+        "title":"Éducation",
+        "content" : [
+
+            {
+                "title": "Master 2 - Systèmes Informatiques Intelligents",
+                "school": "Université des Sciences et de la Technologie de Babezouar",
+                "start_date" : "09/2020",
+                "end_date" : "Présent",
+                "itemize":  {
+                    "title" : "Cours Principaux",
+                    "items" : [
+                        "Machine Learning",
+                        "Métaheuristique",
+                        "Technologie Agent",
+                        "Data Mining",
+                        "NLP",
+                        "Vision par Ordinateur",
+                        "Résolution de Problèmes",
+                        "Chaînes de Markov"
+                    ]     
+                }
+            },
+
+            {
+                "title": "Licence - Informatique Générale",
+                "school": "Université des Sciences et de la Technologie de Babezouar",
+                "start_date" : "09/2017",
+                "end_date" : "10/2020",
+                "itemize":  {
+                    "title" : "Cours Principaux",
+                    "items" : [
+                        "Génie Logiciel",
+                        "Web Sémantique",
+                        "Web Scraping",
+                        "Systèmes d'exploitation",
+                        "Architectures des Ordinateurs",
+                        "Mathematiques"
+                    ]     
+                } 
+            },
+
+            {
+                "title": "Baccalauréat - Scientifique",
+                "school": "Lycée Ali Boumenjel",
+                "start_date" : "09/2014",
+                "end_date" : "06/2017",
+                "itemize":{
+                    "title" : "Mention",
+                    "items" : ["Bien"]
+                }     
+            }
+        ]
+    },
+
+    "experience":{
+        "title":"Expérience",
+        "content":[
+            {
+                "title": "Stagiaire développeur en Intelligence Artificielle",
+                "entity": "Eden AI",
+                "start_date" : "01/2022",
+                "end_date" : "Present",
+                "location": "Lyon, France (remote)",
+                "itemize":{
+                    "title" : "Tâches",
+                    "items" : [
+                        "Je travaille sur une API pour effectuer le résumé et le clustering de conversations."
+                    ]
+                }
+            },
+
+            {
+                "title": "Responsable département IT",
+                "entity": "Google Developer Student Club",
+                "start_date" : "09/2021",
+                "end_date" : "Present",
+                "description" : "The GDSC is a science club affiliated with Google to promote technology to youth.",
+                "itemize":{
+                    "title" : "Tâches",
+                    "items" : [
+                        "Je supervise les sections informatiques, à savoir : Section IA, web dev, game dev, sécurité, etc."
+                    ]
+                }
+            },
+
+            {
+                "title": "Chef de Projet",
+                "entity": "Open Minds Club",
+                "start_date" : "09/2020",
+                "end_date" : "09/2021",
+                "description" : "Open minds est un club scientifique qui contribue à la communauté open source.",
+                "itemize":{
+                    "title" : "Tâches",
+                    "items" : [
+                        "Je dirigeais une équipe. Nous travaillions sur des projets open source pour le bénéfice de la société."
+                    ]
+                }
+            }
+        ]
+    },
+
+    "skills":{
+        "title":"Autres Compétences",
+        "content":[
+            "Gestion de projet",
+            "Gestion d'équipe",
+            "Leadership",
+            "Montage Photo",
+            "Montage Vidéo",
+            "Git",
+            "Django",
+            "Vue.js"  
+        ]
+    },
+
+    "projects":{
+        "title":"Projets",
+        "content": [
+            {
+                "title" : "Résumé et Clustering automatique de Conversations",
+                "description": "Ce projet consiste à prendre un ensemble de conversations en entrée, à résumer chacune d'entre elles puis à les regrouper en un ensemble de thèmes. Chaque regroupement est finalement étiqueté à l'aide d'un algorithme d'extraction de mots-clés. Les principales technologies impliquées sont : transformers, spaCy, pytorch, etc."	
+            },
+
+            {
+                "title": "Systéme Intelligeant pour le Contrôle des Feux de Circulation",
+                "description" : "Mon équipe et moi avons été sélectionnés pour participer à un concours national d'IA (AIMx). Nous avons conçu et développé un système intelligent pour contrôler les feux de circulation afin de réduire le temps d'attente. Les principales techniques d'IA utilisées pour ce projet sont l'apprentissage par renforcement profond et la vision par ordinateur."
+            },
+
+            {
+                "title": "Swarm robotics for precision agriculture",
+                "description" : "Avec mon équipe, nous avons conçu un système de robots qui peuvent travailler ensemble pour réaliser des opérations d'agriculture de précision. Ce projet réunit plusieurs techniques d'IA, notamment des algorithmes métaheuristiques et la vision par ordinateur"
+            },
+
+            {
+                "title": "Système de Recommandation",
+                "description" : "J'ai conçu et développé un système de recommandation de services pour la plateforme YELP. Ce système recommande aux utilisateurs des services qui répondent à leurs attentes. Plusieurs algorithmes ont été conçus et implémentés, dont un algorithme sémantique basé sur une ontologie, un algorithme basé sur le NLP et une hybridation entre les deux."
+            }
+        ]
+    },
+
+    "certifications":{
+        "title":"Certifications",
+        "content":[
+            {
+                "title": "Data Science - Samsung Innovation Campus",
+                "description":"J'ai reçu une bourse d'études entièrement financée par Samsung Algérie pour étudier la science des données de manière intensive pendant 3 mois. En particulier : Statistiques, probabilités, apprentissage automatique et apprentissage profond."
+            }
+        ]
+    },
+
+    "achievements":{
+        "title":"Achievements",
+        "content":[
+            {
+                "title": "Algerian Robot Cup - Finaliste",
+                "description":"Algerian Robot Cup est une compétition de robotique et d'intelligence artificielle, Mon équipe et moi sommes qualifiés pour la finale de qualification qui aura lieu dans quelques semaines."
+            },
+
+            {
+                "title": "Algeria Disrupt - Constantine, 3ème place",
+                "description":"Algeria disrupt est un événement annuel organisé par le ministère pour encourager les nouvelles technologies, nous avons été choisis comme troisième meilleur projet dans le thème de l'IA."
+            },
+
+            {
+                "title": "Hult Prize USTHB, 2ème place",
+                "description":"Hult Prize est un concours d'entrepreneuriat social. Nous avons conçu une IA pour prédire le gaspillage alimentaire le long des chaînes de distribution afin de le récupérer avant qu'il ne soit perdu."
+            }
+        ]
+    },
+
+    "languages":{
+        "title":"Langues",
+        "content":[
+            {"name" : "French", "level" : "Billingue (TCF 699/699)"},
+            {"name" : "English", "level" : "Compétent IELTS (7/9)"},
+            {"name" : "Arabic", "level" : "Compétent"}
+        ]
+    },
+
+    "interests":{
+        "title":"Interests",
+        "content": [
+            "Jeux d'échecs",
+            "Guitare",
+            "Sport",
+            "Lecture",
+            "Dessin"
+        ]
+    }
+}

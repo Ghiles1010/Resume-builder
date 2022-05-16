@@ -7,11 +7,21 @@
 
     <div class="header-left">
 
-        <h1>Aghiles DJEBARA</h1>
-        <h3>Artificial Intelligence Student</h3>
+        <h1>{{this.full_name}}</h1>
+        <h3>{{data.title}}</h3>
         <p>
-            I am a versatil person with a deep passion for artificial intelligence.
-            If you need the power of AI in your business, don't hesitate to contact me.
+            <!-- {{ data.description }} -->
+
+            <!-- Having been accepted to pursue the Master 2 
+            <span class="bold">Machine Learning for Data Science</span> at the
+            <span class="bold">University of Paris</span>,
+            I am currently looking for an internship starting in October. -->
+
+
+            Ayant été accepté pour poursuivre le Master 2 
+            <span class="bold">Machine Learning for Data Science</span> à 
+            <span class="bold">l'Université de Paris</span>, 
+            je suis actuellement à la recherche d'un stage à partir d'octobre.
         </p>
 
     </div>
@@ -28,19 +38,19 @@
 
         <div class="wrapper-grid">
 
-            <p>djebaraghiles@gmail.com</p>
+            <p>{{data.email}}</p>
             <img src="@/assets/icons/envelope-solid.png"/>
 
-            <p>0-66-74-34-20</p>
+            <!-- <p>{{data.phone}}</p>
             <img src="@/assets/icons/mobile-solid.png"/>
             
-            <p>Algiers</p>
-            <img src="@/assets/icons/location-dot-solid.png"/>
+            <p>{{data.location}}</p>
+            <img src="@/assets/icons/location-dot-solid.png"/> -->
 
-            <p>https://linkedin.com/in/ghiles-djebara-7005b417a/</p>
+            <p>{{data.linkedin}}</p>
             <img src="@/assets/icons/linkedin-brands.png"/>
 
-            <p>https://github.com/Ghiles1010</p>
+            <p>{{data.github}}</p>
             <img src="@/assets/icons/github-brands.png"/>
 
         </div>
@@ -58,6 +68,20 @@ export default {
 
     components: {
         Rectangle,
+    },
+
+    props: {
+        data: {
+            type: Object,
+            required: true,
+        },
+    },
+
+    // data full name Uppercase
+    data() {
+        return {
+            full_name: this.data.first_name + " " + this.data.last_name.toUpperCase(),
+        }
     },
 }
 </script>
@@ -108,6 +132,8 @@ export default {
 
     .header-left p {
         margin-top: 0.5rem;
+        font-size: 10pt;
+        
     }
 
     /* Center */
@@ -146,7 +172,7 @@ export default {
     }
 
     .header-right p, a{
-        font-size: 8pt;
+        font-size: 9pt;
         text-align: right;
     }
 
@@ -168,7 +194,11 @@ export default {
         height: 13pt;
     }
 
-
+    .bold{
+        font-family: Helvetica;
+        font-weight: bold;
+        /* color: var(--clr-secondary); */
+    }
 
 
 
