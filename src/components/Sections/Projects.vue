@@ -5,15 +5,8 @@
 
         <SubSection v-for="(pr, index) in projects" :key="index"
                     :titles="[pr.title]"
-                    :left_band="left_band">
-
-
-              <div>
-                <p>{{pr.description}}</p>
-              </div>
-            
-
-        </SubSection>
+                    :paragraph="markdown(pr.paragraph)"
+                    :left_band="left_band"/>
 
       </Section>
   </div>
@@ -23,10 +16,12 @@
 
 import Section from '@/components/Sections/Section.vue'
 import SubSection from '@/components/Sections/SubSection.vue'
+import markdown from '@/mixins/markdown'
 
 
 export default {
   name: 'Projects',
+  mixins: [markdown],
 
   props:{
     data : {

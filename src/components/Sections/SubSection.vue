@@ -27,8 +27,10 @@
         </div>
 
  
-        <p id ="description" v-if="description != ''">
-            {{description}}
+        <p id ="description" v-if="description != ''" v-html="description">
+        </p>
+
+        <p id ="paragraph" v-if="paragraph != ''" v-html="paragraph">
         </p>
 
         <slot>
@@ -68,6 +70,10 @@ export default {
             default: '',
         },
         description: {
+            type: String,
+            default: '',
+        },
+        paragraph: {
             type: String,
             default: '',
         },
@@ -116,7 +122,7 @@ export default {
     }
 
     #description {
-        color: var(--clr-gray);
+        color: gray;
     }
 
 

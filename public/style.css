@@ -3,8 +3,8 @@
     --clr-secondary: #313C4E;
     --clr-gray: #989DA6;
 
-    --rect-height: 3.5rem;
-    --rect-width: 2.5rem;
+    --rect-height: 3rem;
+    --rect-width: 2rem;
 }
 
 html{
@@ -19,6 +19,11 @@ body{
     max-height: 297mm;
     max-width: 210mm;
     overflow: scroll;
+}
+
+strong{
+    font-weight: bold;
+    color: black;
 }
 
 @font-face {

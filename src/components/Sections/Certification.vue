@@ -4,13 +4,8 @@
 
         <SubSection v-for="(cr, index) in certifications" :key="index"
                     :titles="[cr.title]"
-                    :left_band="left_band">
-
-
-              
-            <p id="description">{{cr.description}}</p>
-            
-
+                    :left_band="left_band"
+                    :description="markdown(cr.description)">
         </SubSection>
 
       </Section>
@@ -22,9 +17,12 @@
 import Section from '@/components/Sections/Section.vue'
 import SubSection from '@/components/Sections/SubSection.vue'
 
+import markdown from '@/mixins/markdown'
+
 
 export default {
   name: 'Certification',
+  mixins: [markdown],
 
   props:{
     data : {

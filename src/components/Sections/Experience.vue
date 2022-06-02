@@ -27,6 +27,7 @@ import SubSection from '@/components/Sections/SubSection.vue'
 import Itemize from '@/components/widgets/Itemize.vue'
 
 
+
 export default {
   name: 'Experience',
 

@@ -4,17 +4,19 @@
     <p class="title">{{title}}</p>
 
     <ul :style="ul_style" class="round">
-        <li v-for="(item, index) in items" :key="index">
-            {{item}}
-        </li>
+        <li v-for="(item, index) in items" :key="index" v-html="markdown(item)"></li>
     </ul>
 
   </div>
 </template>
 
 <script>
+
+import markdown from '@/mixins/markdown'
+
 export default {
   name: 'Itemize',
+  mixins: [markdown],
   props: {
         title: {
         type: String,
@@ -38,7 +40,7 @@ export default {
       return {
         'grid-template-columns': `repeat(${this.nb_cols}, 1fr)`,
       }
-    }
+    },
   }
       
 }
@@ -78,8 +80,5 @@ ul.round li::before{
 
 li{
   font-size: 9pt;
-}
-
-
-
+} 
 </style>

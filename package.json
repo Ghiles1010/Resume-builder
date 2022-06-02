@@ -10,6 +10,7 @@
     "core-js": "^3.6.5",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
+    "marked": "^4.0.16",
     "vue": "^2.6.11",
     "vue-html-to-paper": "^1.4.4"
   },

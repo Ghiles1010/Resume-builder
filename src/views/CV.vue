@@ -1,7 +1,6 @@
 <template>
 
     <div id="CV" @click.ctrl="generate_pdf">
-        <!-- <input  /> -->
 
         <div class="header">
             <Header :data="this.cv_data.personnal"/>
@@ -30,8 +29,8 @@
 </template>
 
 <script>
-import cv_data from '@/data/cv.json'
-// import cv_data from '@/data/cv_fr.json'
+// import cv_data from '@/data/cv.json's
+import cv_data from '@/data/cv_fr.json'
 
 
 import Header from '@/components/Header.vue'
@@ -77,12 +76,20 @@ export default {
         var doc = new jsPDF('p', 'px', [cv_div.offsetWidth, cv_div.offsetHeight]);   
 
         doc.addFont('Ubuntu-Regular.ttf', 'Ubuntu', 'normal');
-        console.log(doc.getFontList());
 
         let options = {
             callback: function (doc) {
                 doc.save();
             }
+        }
+
+        var pageCount = doc.internal.getNumberOfPages();
+
+        console.log(pageCount);
+
+        if (pageCount>1){
+            console.log(pageCount);
+            doc.deletePage(pageCount);
         }
 
 
@@ -111,12 +118,10 @@ export default {
 }
 
 .col1 {
-    /* flex: 20 1 0; */
     flex: 1 1 0;
 }
 
 .col2 {
-    /* flex: 26 1 0; */
     flex: 1 1 0;
     padding-right: 5pt;
 }

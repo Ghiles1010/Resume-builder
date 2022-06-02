@@ -9,20 +9,7 @@
 
         <h1>{{this.full_name}}</h1>
         <h3>{{data.title}}</h3>
-        <p>
-            <!-- {{ data.description }} -->
-
-            <!-- Having been accepted to pursue the Master 2 
-            <span class="bold">Machine Learning for Data Science</span> at the
-            <span class="bold">University of Paris</span>,
-            I am currently looking for an internship starting in October. -->
-
-
-            Ayant été accepté pour poursuivre le Master 2 
-            <span class="bold">Machine Learning for Data Science</span> à 
-            <span class="bold">l'Université de Paris</span>, 
-            je suis actuellement à la recherche d'un stage à partir d'octobre.
-        </p>
+        <p v-html="markdown(data.description)"></p>
 
     </div>
 
@@ -41,10 +28,10 @@
             <p>{{data.email}}</p>
             <img src="@/assets/icons/envelope-solid.png"/>
 
-            <!-- <p>{{data.phone}}</p>
+            <p>{{data.phone}}</p>
             <img src="@/assets/icons/mobile-solid.png"/>
             
-            <p>{{data.location}}</p>
+            <!-- <p>{{data.location}}</p>
             <img src="@/assets/icons/location-dot-solid.png"/> -->
 
             <p>{{data.linkedin}}</p>
@@ -62,9 +49,11 @@
 
 <script>
 import Rectangle from '@/components/shapes/Rectangle.vue';
+import markdown from '@/mixins/markdown';
 
 export default {
   name: 'Header',
+  mixins: [markdown],
 
     components: {
         Rectangle,

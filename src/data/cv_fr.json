@@ -4,10 +4,10 @@
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
         "title":"Étudiant en Intelligence Artificielle",
-        "description":"Ayant été accepté pour poursuivre le Master 2 Machine Learning for Data Science à l'Université de Paris, je suis actuellement à la recherche d'un stage à partir d'octobre.",
+        "description":"Étant admis au Master 2 **MLDS** à l'université de Paris, Je recherche une **alternance** de **12 mois** dans le domaine de la data science",
         "email":"djebaraghiles@gmail.com",
         "location":"Algeria, Algiers",
-        "phone":"06-66-74-34-20",
+        "phone":"+213 6-66-74-34-20",
         "linkedin":"https://www.linkedin.com/in/ghiles-djebara-7005b417a/",
         "github":"https://github.com/Ghiles1010"
     },
@@ -15,6 +15,24 @@
     "education":{
         "title":"Éducation",
         "content" : [
+
+
+            {
+                "title":"Master 2 - Machine Learning for Data Scienece",
+                "school":"Université de Paris",
+                "start_date":"10/2022",
+                "end_date":"06/2023",
+                "itemize":{
+                    "title":"Cours Principaux",
+                    "items":[
+                        "Deep Learning",
+                        "Reinforcement Learning",
+                        "Big Data Analytics",
+                        "NLP"
+                    ]
+                }
+            },
+
 
             {
                 "title": "Master 2 - Systèmes Informatiques Intelligents",
@@ -28,10 +46,8 @@
                         "Métaheuristique",
                         "Technologie Agent",
                         "Data Mining",
-                        "NLP",
                         "Vision par Ordinateur",
-                        "Résolution de Problèmes",
-                        "Chaînes de Markov"
+                        "Résolution de Problèmes"
                     ]     
                 }
             },
@@ -48,8 +64,8 @@
                         "Web Sémantique",
                         "Web Scraping",
                         "Systèmes d'exploitation",
-                        "Architectures des Ordinateurs",
-                        "Mathematiques"
+                        "Mathematiques",
+                        "Architectures des Ordinateurs"
                     ]     
                 } 
             },
@@ -79,7 +95,7 @@
                 "itemize":{
                     "title" : "Tâches",
                     "items" : [
-                        "Je travaille sur une API pour effectuer le résumé et le clustering de conversations."
+                        "Je développe sur une **API** pour effectuer le **résumé** et le **clustering** de **conversations**. Les clusters sont ensuite labelisés en utiisant **keyword extraction.**"
                     ]
                 }
             },
@@ -89,25 +105,25 @@
                 "entity": "Google Developer Student Club",
                 "start_date" : "09/2021",
                 "end_date" : "Present",
-                "description" : "The GDSC is a science club affiliated with Google to promote technology to youth.",
+                "description" : "Le GDSC est un club scientifique affilié à Google qui vise à promouvoir la technologie auprès des jeunes.",
                 "itemize":{
                     "title" : "Tâches",
                     "items" : [
-                        "Je supervise les sections informatiques, à savoir : Section IA, web dev, game dev, sécurité, etc."
+                        "Je **supervise** les sections informatiques, à savoir : Section IA, web dev, game dev, sécurité, et robotique."
                     ]
                 }
             },
 
             {
-                "title": "Chef de Projet",
-                "entity": "Open Minds Club",
-                "start_date" : "09/2020",
-                "end_date" : "09/2021",
-                "description" : "Open minds est un club scientifique qui contribue à la communauté open source.",
+                "title": "Stagiaire en recherche",
+                "entity": "LRIA - USTHB",
+                "start_date" : "01/2019",
+                "end_date" : "09/2019",
+                "location": "Alger, Babezouar",
                 "itemize":{
                     "title" : "Tâches",
                     "items" : [
-                        "Je dirigeais une équipe. Nous travaillions sur des projets open source pour le bénéfice de la société."
+                        "Conception et developpement d'un **système de recommandation.**"
                     ]
                 }
             }
@@ -133,22 +149,22 @@
         "content": [
             {
                 "title" : "Résumé et Clustering automatique de Conversations",
-                "description": "Ce projet consiste à prendre un ensemble de conversations en entrée, à résumer chacune d'entre elles puis à les regrouper en un ensemble de thèmes. Chaque regroupement est finalement étiqueté à l'aide d'un algorithme d'extraction de mots-clés. Les principales technologies impliquées sont : transformers, spaCy, pytorch, etc."	
+                "paragraph": "Ce projet consiste à prendre un ensemble de **conversations** en entrée, à **résumer** chacune d'entre elles puis à les regrouper en un ensemble de thèmes. Chaque **cluster** est finalement **labelisé** à l'aide d'un algorithme de **keyword extraction**. Les principales technologies impliquées sont : **NLP**, **transformers**, **spaCy**, **pytorch**, etc."	
             },
 
             {
                 "title": "Systéme Intelligeant pour le Contrôle des Feux de Circulation",
-                "description" : "Mon équipe et moi avons été sélectionnés pour participer à un concours national d'IA (AIMx). Nous avons conçu et développé un système intelligent pour contrôler les feux de circulation afin de réduire le temps d'attente. Les principales techniques d'IA utilisées pour ce projet sont l'apprentissage par renforcement profond et la vision par ordinateur."
+                "paragraph" : "Dans le cadre d'un **concours national** d'IA (AIMx). Nous avons conçu et développé un **système intelligent** pour contrôler les feux de circulation afin de **réduire le temps d'attente**. Les principales techniques d'IA utilisées pour ce projet sont : **Deep Reinforcement Learning** et **Computer Vision**."
             },
 
             {
                 "title": "Swarm robotics for precision agriculture",
-                "description" : "Avec mon équipe, nous avons conçu un système de robots qui peuvent travailler ensemble pour réaliser des opérations d'agriculture de précision. Ce projet réunit plusieurs techniques d'IA, notamment des algorithmes métaheuristiques et la vision par ordinateur"
+                "paragraph" : "Avec mon équipe, nous avons conçu un **système de robots** qui peuvent travailler ensemble pour réaliser des opérations d'agriculture de précision. Ce projet réunit plusieurs techniques d'IA, notamment des algorithmes **métaheuristiques**, **swarm robotics**, et la **vision par ordinateur**"
             },
 
             {
                 "title": "Système de Recommandation",
-                "description" : "J'ai conçu et développé un système de recommandation de services pour la plateforme YELP. Ce système recommande aux utilisateurs des services qui répondent à leurs attentes. Plusieurs algorithmes ont été conçus et implémentés, dont un algorithme sémantique basé sur une ontologie, un algorithme basé sur le NLP et une hybridation entre les deux."
+                "paragraph" : "J'ai conçu et développé un **système de recommandation** de services pour la plateforme **YELP**. Ce système **recommande** aux utilisateurs des services qui répondent à leurs attentes. Les principales technologies utilisées sont : **NLP**, **Ontologies**"
             }
         ]
     },
@@ -158,7 +174,7 @@
         "content":[
             {
                 "title": "Data Science - Samsung Innovation Campus",
-                "description":"J'ai reçu une bourse d'études entièrement financée par Samsung Algérie pour étudier la science des données de manière intensive pendant 3 mois. En particulier : Statistiques, probabilités, apprentissage automatique et apprentissage profond."
+                "description":"J'ai reçu une bourse d'études entièrement financée par **Samsung** Algérie pour étudier la **data science** de manière intensive pendant **3 mois**."
             }
         ]
     },
@@ -168,17 +184,17 @@
         "content":[
             {
                 "title": "Algerian Robot Cup - Finaliste",
-                "description":"Algerian Robot Cup est une compétition de robotique et d'intelligence artificielle, Mon équipe et moi sommes qualifiés pour la finale de qualification qui aura lieu dans quelques semaines."
+                "description":"Algerian Robot Cup est une **compétition** de **robotique** et d'**intelligence artificielle**, Mon équipe et moi sommes qualifiés pour la **finale** de qualification qui aura lieu **dans quelques semaines.**"
             },
 
             {
                 "title": "Algeria Disrupt - Constantine, 3ème place",
-                "description":"Algeria disrupt est un événement annuel organisé par le ministère pour encourager les nouvelles technologies, nous avons été choisis comme troisième meilleur projet dans le thème de l'IA."
+                "description":"Algeria disrupt est un **événement annuel** organisé par le **ministère** pour encourager les nouvelles technologies, nous avons été choisis comme **troisième meilleur projet** dans le thème de l'**IA**."
             },
 
             {
                 "title": "Hult Prize USTHB, 2ème place",
-                "description":"Hult Prize est un concours d'entrepreneuriat social. Nous avons conçu une IA pour prédire le gaspillage alimentaire le long des chaînes de distribution afin de le récupérer avant qu'il ne soit perdu."
+                "description":"Hult Prize est un **concours** d'entrepreneuriat social. Nous avons conçu une IA pour **prédire le gaspillage alimentaire** le long des **chaînes de distribution** afin de le récupérer avant qu'il ne soit perdu."
             }
         ]
     },
@@ -188,6 +204,7 @@
         "content":[
             {"name" : "French", "level" : "Billingue (TCF 699/699)"},
             {"name" : "English", "level" : "Compétent IELTS (7/9)"},
+            {"name" : "Tamazight", "level" : "Natale"},
             {"name" : "Arabic", "level" : "Compétent"}
         ]
     },
