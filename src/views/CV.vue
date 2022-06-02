@@ -29,8 +29,8 @@
 </template>
 
 <script>
-// import cv_data from '@/data/cv.json's
-import cv_data from '@/data/cv_fr.json'
+import cv_data from '@/data/cv.json'
+// import cv_data from '@/data/cv_fr.json'
 
 
 import Header from '@/components/Header.vue'
@@ -75,7 +75,13 @@ export default {
 
         var doc = new jsPDF('p', 'px', [cv_div.offsetWidth, cv_div.offsetHeight]);   
 
-        doc.addFont('Ubuntu-Regular.ttf', 'Ubuntu', 'normal');
+        // doc.addFont('Roboto-Regular', 'Roboto', 'normal');
+
+        // change font
+        // doc.setFont('Ubuntu');
+
+        // print disponible fonts
+        console.log(doc.getFontList());
 
         let options = {
             callback: function (doc) {

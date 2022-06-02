@@ -4,7 +4,7 @@
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
         "title":"Artificial Intelligence Student",
-        "description":"I am looking for a 12-month work-study program as a data scientist, with a rhythm of 3 days in the company and 2 days in training.",
+        "description":"Being admitted to the Master 2 **MLDS** at the University of Paris, I am looking for a **word-study** program of **12 months** in the field of **data science**",
         "email":"djebaraghiles@gmail.com",
         "location":"Algeria, Algiers",
         "phone":"+213 6-66-74-34-20",
@@ -17,7 +17,7 @@
         "content" : [
 
             {
-                "title":"Master 2 - Machine Learning for Data Scienece",
+                "title":"Master 2 - Machine Learning for Data Science",
                 "school":"University of Paris",
                 "start_date":"10/2022",
                 "end_date":"06/2023",
@@ -93,7 +93,7 @@
                 "itemize":{
                     "title" : "Tasks",
                     "items" : [
-                        "I'm working on an API to perform conversation summarization and clustering"
+                        "I develop an **API** to perform the **summarization** and **clustering** of **conversations**. The clusters are then labeled using **keyword extraction.**"
                     ]
                 }
             },
@@ -107,7 +107,7 @@
                 "itemize":{
                     "title" : "Tasks",
                     "items" : [
-                        "I supervise the IT sections, namely: AI section, web dev, game dev, security, etc"
+                        "I **supervise** the IT sections, namely: AI section, web dev, game dev, security, etc"
                     ]
                 }
             },
@@ -121,7 +121,7 @@
                 "itemize":{
                     "title" : "Tasks",
                     "items" : [
-                        "Conception and development of a recommendation system for services."
+                        "Conception and development of a **recommendation system** for services."
                     ]
                 }
             }
@@ -149,22 +149,22 @@
         "content": [
             {
                 "title" : "Automatic text summarization and clustering",
-                "paragraph": "This project consits in taking a set of conversations as an input, summarizing each one of them and then clustering them into a set of topics. Each cluster is finally labeled using a Keyword Extraction algorithm. The main technologies involvled are : transformers, spaCy, pytorch, etc"	
+                "paragraph": "This project consits in taking a set of **conversations** as an input, **summarizing** each one of them and then **clustering** them into a set of **topics**. Each cluster is finally **labeled** using a **Keyword Extraction** algorithm. The main technologies involvled are : **transformers**, **spaCy**, **pytorch**, etc"	
             },
 
             {
                 "title": "Inteligent Traffic Light Control System",
-                "paragraph" : "My team and I were selected to participate in a national AI competition (AIMx). We designed and developed an intelligent system to control traffic lights to reduce waiting time. The main AI techniques used for this project are deep reinforcement learning and computer vision."
+                "paragraph" : "My team and I were selected to participate in a national AI **competition** (AIMx). We designed and developed an **intelligent** system to control traffic lights to **reduce waiting time**. The main AI techniques used for this project are **deep reinforcement learning** and **computer vision**."
             },
 
             {
                 "title": "Swarm Robotics for Precision Farming",
-                "paragraph" : "With my team, we have designed a system of robots that can work together to perform precision farming operations. This project brings together several AI techniques, including metaheuristic algorithms, computer vision, etc."
+                "paragraph" : "With my team, we have designed a **system of robots** that can work together to perform **precision farming** operations. This project brings together several AI techniques, including **metaheuristic** algorithms, **computer vision**, etc."
             },
 
             {
                 "title": "Recommandation System",
-                "paragraph" : "I designed and developed a service recommendation system for the YELP platform. This system recommends to users services that meet their expectations. Several algorithms have been designed and implemented, including a semantic algorithm based on ontologies, an algorithm based on NLP, and a hybridization between the two."
+                "paragraph" : "I designed and developed a service **recommendation system** for the **YELP** platform. This system recommends to users **services** that meet their expectations. Several algorithms have been designed and implemented, including a semantic algorithm based on **ontologies**, an algorithm based on **NLP**, and a hybridization between the two."
             }
         ]
     },
@@ -174,7 +174,7 @@
         "content":[
             {
                 "title": "Data Science - Samsung Innovation Campus",
-                "description":"I  received a scholarship fully funded by Samsung Algeria to intensively study Data Science during 3 months : 5 days/7  for 4 hours. In particular. Statistics, Probabilities, Machine Learning and Deep Learning"
+                "description":"I received a scholarship fully funded by **Samsung** Algeria to intensively study **Data Science** during 3 months : 5 days/7  for 4 hours. In particular. **Statistics**, **Probabilities**, Machine Learning and Deep Learning"
             }
         ]
     },
@@ -184,17 +184,17 @@
         "content":[
             {
                 "title": "Algerian Robot Cup - Final Qualifier",
-                "description":"Algerian Robot Cup is a competition of robotics and artificial intelligence, My team and I are qualified for the final qualifier that will be held and a few weeks from now."
+                "description":"Algerian Robot Cup is a **competition** of **robotics** and **artificial intelligence**, My team and I are qualified for the **final** qualifier that will be held and a **few weeks** from now."
             },
 
             {
                 "title": "Algeria Disrupt - Constantine, 3rd place",
-                "description":"Algeria disrupt is a yearly event organized by the ministry to encourage new technologies, we have been chosen as being the third-best project if the AI thematic"
+                "description":"Algeria disrupt is a **yearly event** organized by the **ministry** to encourage new technologies, we have been chosen as being the **third-best project** if the AI thematic"
             },
 
             {
                 "title": "Hult Prize USTHB, 2nd place",
-                "description":"Hult prize is a social entrepreneurship competition, we have designed an AI to predict food waste along distribution chains in order to recover them before they are lost"
+                "description":"Hult prize is a social entrepreneurship **competition**, we have designed an AI to **predict food waste** along **distribution chains** in order to recover them before they are lost"
             }
         ]
     },

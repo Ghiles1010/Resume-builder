@@ -23,7 +23,7 @@ export default {
 
 #Chip {
 
-  color: white;
+  
   background-color: var(--clr-gray);
   padding: 5pt;
   border-radius: 5pt;
@@ -35,6 +35,7 @@ export default {
 
 #Chip p{
   font-size: 8pt;
+  color: white;
 }
 
 </style>

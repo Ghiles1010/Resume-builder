@@ -95,7 +95,7 @@
                 "itemize":{
                     "title" : "Tâches",
                     "items" : [
-                        "Je développe sur une **API** pour effectuer le **résumé** et le **clustering** de **conversations**. Les clusters sont ensuite labelisés en utiisant **keyword extraction.**"
+                        "Je développe une **API** pour effectuer le **résumé** et le **clustering** de **conversations**. Les clusters sont ensuite labelisés en utiisant **keyword extraction.**"
                     ]
                 }
             },

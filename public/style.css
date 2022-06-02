@@ -26,7 +26,22 @@ strong{
     color: black;
 }
 
-@font-face {
+
+*{
+    /* font-family: Ubuntu; */
+    font-family: Helvetica;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p{
+    font-size: 8pt;
+    color: rgb(69, 69, 69);
+  }
+  
+
+/* @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu');
-}
+} */
