@@ -24,6 +24,8 @@ body{
 strong{
     font-weight: bold;
     color: black;
+    /* underline */
+    /* text-decoration: underline; */
 }
 
 
@@ -37,7 +39,7 @@ strong{
   
   p{
     font-size: 8pt;
-    color: rgb(69, 69, 69);
+    color: rgb(82, 82, 82);
   }
   
 

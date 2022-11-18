@@ -4,7 +4,7 @@
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
         "title":"Étudiant en Intelligence Artificielle",
-        "description":"Étant admis au Master 2 **MLDS** à l'université de Paris, Je recherche un **stage** dans le domaine de la data science ou de l'IA à partir du **1er Mars**",
+        "description":"Étudiant motivé et passioné par l'intelligence artificielle et la Data Science.",
         "email":"djebaraghiles@gmail.com",
         "location":"Algeria, Algiers",
         "phone":"+33 6 05 91 60 32",
@@ -15,24 +15,6 @@
     "education":{
         "title":"Éducation",
         "content" : [
-
-
-            {
-                "title":"Master 2 - Machine Learning for Data Scienece",
-                "school":"Université de Paris",
-                "start_date":"10/2022",
-                "end_date":"06/2023",
-                "itemize":{
-                    "title":"Cours Principaux",
-                    "items":[
-                        "Deep Learning",
-                        "Reinforcement Learning",
-                        "Big Data Analytics",
-                        "NLP"
-                    ]
-                }
-            },
-
 
             {
                 "title": "Master 2 - Systèmes Informatiques Intelligents",

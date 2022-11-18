@@ -6,9 +6,16 @@
     </div>
 
     <div id="content">
-        <h4 class="title" v-for="(title, index) in titles" :key="index">
-            {{title}}
-        </h4>
+
+        <div class="sub_header">
+            <img v-if="image" v-bind:src="getImgSrc(image)" alt="image" class="image">
+
+            <div>
+                <h4 class="title" v-for="(title, index) in titles" :key="index">
+                    {{title}}
+                </h4>
+            </div>
+        </div>
 
         <h4 class="subtitle" v-for="(subtitle, index) in subtitles" :key="index">
             {{subtitle}}
@@ -57,6 +64,10 @@ export default {
             type: Array,
             default: () => [],
         },
+        image: {
+            type: String,
+            default: '',
+        },
         start_date: {
             type: String,
             default: '',
@@ -82,6 +93,13 @@ export default {
             default: false,
         },
     },
+
+    methods: {
+        // This method is used to get the current year
+        getImgSrc: function (img) {
+            return require(`@/assets/images/${img}`);
+        },
+    },
     
 }
 </script>
@@ -91,6 +109,19 @@ export default {
     #SubSection {
         display: flex;
         margin-bottom: 10pt;
+    }
+
+    .sub_header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .sub_header img {
+        width: 35pt;
+        height: 35pt;
+        margin-right: 5pt;
+        object-fit: cover;        
     }
 
     .rect {
@@ -122,7 +153,7 @@ export default {
     }
 
     #description {
-        color: gray;
+        /* color: rgb(90, 90, 90); */
     }
 
 

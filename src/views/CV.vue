@@ -11,6 +11,7 @@
             <div class="col1">
                 <Education :data="this.cv_data.education" :left_band="true"/>
                 <Experience :data="this.cv_data.experience" :left_band="true"/>
+                <Volunteering :data="this.cv_data.volunteering" :left_band="true"/>
             </div>
 
             <div class="col2">
@@ -29,19 +30,22 @@
 </template>
 
 <script>
-import cv_data from '@/data/cv.json'
+// import cv_data from '@/data/cv_visa.json'
 // import cv_data from '@/data/cv_fr.json'
+import cv_data from '@/data/cv.json'
 
 
 import Header from '@/components/Header.vue'
 import Education from '@/components/Sections/Education.vue'
 import Experience from '@/components/Sections/Experience.vue'
+import Volunteering from '@/components/Sections/Volunteering.vue'
 import Skills from '@/components/Sections/Skills.vue'
 import Projects from '@/components/Sections/Projects.vue'
 import Certification from '@/components/Sections/Certification.vue'
 import Achievement from '@/components/Sections/Achievement.vue'
 import Languages from '@/components/Sections/Languages.vue'
 import Interest from '@/components/Sections/Interest.vue'
+
 
 
 import jsPDF from "jspdf"
@@ -54,6 +58,7 @@ export default {
         Header,
         Education,
         Experience,
+        Volunteering,
         Skills,
         Projects,
         Certification,
@@ -75,7 +80,7 @@ export default {
 
         var doc = new jsPDF('p', 'px', [cv_div.offsetWidth, cv_div.offsetHeight]);   
 
-        // doc.addFont('Roboto-Regular', 'Roboto', 'normal');
+        // doc.addFont('Ubuntu', 'Ubuntu', 'normal');
 
         // change font
         // doc.setFont('Ubuntu');
@@ -124,11 +129,11 @@ export default {
 }
 
 .col1 {
-    flex: 1 1 0;
+    flex: 20 1 0;
 }
 
 .col2 {
-    flex: 1 1 0;
+    flex: 22 1 0;
     padding-right: 5pt;
 }
 

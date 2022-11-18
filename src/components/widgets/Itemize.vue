@@ -80,5 +80,6 @@ ul.round li::before{
 
 li{
   font-size: 9pt;
+  /* color:gray; */
 } 
 </style>
