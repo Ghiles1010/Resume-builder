@@ -9,18 +9,18 @@
         <div class="content">
 
             <div class="col1">
-                <Education :data="this.cv_data.education" :left_band="true"/>
-                <Experience :data="this.cv_data.experience" :left_band="true"/>
-                <Volunteering :data="this.cv_data.volunteering" :left_band="true"/>
+                <Education v-if="this.cv_data.education" :data="this.cv_data.education" :left_band="true"/>
+                <Experience v-if="this.cv_data.experience" :data="this.cv_data.experience" :left_band="true"/>
+                <Volunteering v-if="this.cv_data.volunteering" :data="this.cv_data.volunteering" :left_band="true"/>
             </div>
 
             <div class="col2">
-                <Skills :data="this.cv_data.skills"/>
-                <Projects :data="this.cv_data.projects"/>
-                <Certification :data="cv_data.certifications"/>
-                <Achievement :data="this.cv_data.achievements"/>
-                <Languages :data="this.cv_data.languages"/>
-                <Interest :data="this.cv_data.interests"/>
+                <Skills v-if="this.cv_data.skills" :data="this.cv_data.skills"/>
+                <Projects v-if="this.cv_data.projects" :data="this.cv_data.projects"/>
+                <Certification v-if="this.cv_data.certifications" :data="cv_data.certifications"/>
+                <Achievement v-if="this.cv_data.achievements" :data="this.cv_data.achievements"/>
+                <Languages v-if="this.cv_data.languages" :data="this.cv_data.languages"/>
+                <Interest v-if="this.cv_data.interests" :data="this.cv_data.interests"/>
             </div>
 
         </div>
