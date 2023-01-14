@@ -29,8 +29,8 @@
 </template>
 
 <script>
-// import cv_data from '@/data/cv.json's
-import cv_data from '@/data/cv_fr.json'
+import cv_data from '@/data/cv.json'
+// import cv_data from '@/data/cv_fr.json'
 
 
 import Header from '@/components/Header.vue'
