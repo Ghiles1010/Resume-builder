@@ -31,8 +31,8 @@
             <p>{{data.phone}}</p>
             <img src="@/assets/icons/mobile-solid.png"/>
             
-            <!-- <p>{{data.location}}</p>
-            <img src="@/assets/icons/location-dot-solid.png"/> -->
+            <p>{{data.location}}</p>
+            <img src="@/assets/icons/location-dot-solid.png"/>
 
             <p>{{data.linkedin}}</p>
             <img src="@/assets/icons/linkedin-brands.png"/>
@@ -122,6 +122,7 @@ export default {
     .header-left p {
         margin-top: 0.5rem;
         font-size: 10pt;
+        /* color: black; */
         
     }
 
@@ -181,8 +182,11 @@ export default {
     .header-right .wrapper-grid img {
         width: auto;
         height: 13pt;
-    }
+    }   
 
+    .wrapper-grid p {
+        color: black;
+    }
     .bold{
         font-family: Helvetica;
         font-weight: bold;

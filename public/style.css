@@ -1,6 +1,6 @@
 :root {
-    --clr-primary: #449399;
-    --clr-secondary: #313C4E;
+    --clr-primary: #033a11;
+    --clr-secondary: #022e0d;
     --clr-gray: #989DA6;
 
     --rect-height: 3rem;
@@ -24,9 +24,26 @@ body{
 strong{
     font-weight: bold;
     color: black;
+    /* underline */
+    /* text-decoration: underline; */
 }
 
-@font-face {
+
+*{
+    /* font-family: Ubuntu; */
+    font-family: Helvetica;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+  }
+  
+  p{
+    font-size: 8pt;
+    color: rgb(82, 82, 82);
+  }
+  
+
+/* @font-face {
     font-family: 'Ubuntu';
     src: local('Ubuntu');
-}
+} */

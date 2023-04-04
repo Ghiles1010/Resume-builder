@@ -4,7 +4,7 @@
       <Section :title="data.title" :left_band="left_band">
 
         <SubSection v-for="(edu, index) in educations" :key="index"
-                    :titles="[edu.title, edu.school]" :start_date="edu.start_date"
+                    :titles="[edu.title, edu.school]" :image="edu.image" :start_date="edu.start_date"
                     :end_date="edu.end_date"
                     :left_band="left_band">
 

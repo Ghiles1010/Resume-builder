@@ -30,16 +30,6 @@ export default {
   width: 100%;
 }
 
-*{
-  font-family: Ubuntu;
-  font-weight: 400;
-  margin: 0;
-  padding: 0;
-}
-
-p{
-  font-size: 8pt;
-}
 
 </style>
 

@@ -1,16 +1,16 @@
 <template>
 
-<div id="Experience">
+<div id="Volunteering">
 
     <Section :title="data.title" :left_band="left_band">
 
-    <SubSection v-for="(exp, index) in experiences" :key="index"
-                :titles="[exp.title, exp.entity]" :start_date="exp.start_date"
-                :end_date="exp.end_date" :location="exp.location" :image="exp.image" :description="exp.description"
+    <SubSection v-for="(vol, index) in volunteerings" :key="index"
+                :titles="[vol.title, vol.entity]" :start_date="vol.start_date" :image="vol.image"
+                :end_date="vol.end_date" :location="vol.location" :description="vol.description"
                 :left_band="left_band">
 
 
-            <Itemize class="items" :title="exp.itemize.title" :items="exp.itemize.items"
+            <Itemize class="items" :title="vol.itemize.title" :items="vol.itemize.items"
             :nb_cols="1"/>
       
     </SubSection> 
@@ -29,7 +29,7 @@ import Itemize from '@/components/widgets/Itemize.vue'
 
 
 export default {
-  name: 'Experience',
+  name: 'volunteering',
 
   props:{
     data : {
@@ -45,7 +45,7 @@ export default {
 
   data() {
     return {
-      experiences: this.data.content,
+      volunteerings: this.data.content,
     }
   },
 
