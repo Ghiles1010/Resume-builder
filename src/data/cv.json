@@ -111,6 +111,7 @@
                         "Automatic Summarization of **conversations** using **transformers** (LLMs)",
                         "Automatic text **Clustering** using **unsupervised learning**",
                         "Text Labeling using **Keyword Extraction**",
+                        "Developmment of a web site called **Data Voice** using **VueJS** and **Flask**",
                         "Deployement using **Docker** and **AWS**"
                     ]
                 }
@@ -185,12 +186,16 @@
         "content": [
             {
                 "title": "Inteligent Traffic Light Control System",
-                "paragraph" : "My team and I were selected to participate in a national AI **competition** (AIMx). We designed and developed an **intelligent** system to control traffic lights to **reduce waiting time**. The main AI techniques used for this project are **deep reinforcement learning** and **computer vision**."
+                "paragraph" : "My team and I were selected to participate in a national AI **competition** (AIMx). We designed and developed an **intelligent** system to control traffic lights to **reduce waiting time**. The main AI techniques used for this project are **deep reinforcement learning** and **computer vision**. <br/> **Link** : https://www.youtube.com/watch?v=HgA-qZcDR7A&ab_channel=GhilesDjebara"
             },
 
             {
                 "title": "Swarm Robotics for Precision Farming",
-                "paragraph" : "With my team, we have designed a **system of robots** that can work together to perform **precision farming** operations. This project brings together several AI techniques, including **metaheuristic** algorithms, **computer vision**, etc."
+                "paragraph" : "With my team, we have designed a **system of robots** that can work together to perform **precision farming** operations. This project brings together several AI techniques, including **metaheuristic** algorithms, **computer vision**, etc. <br/> **Link** : https://www.linkedin.com/posts/ghiles-djebara-7005b417a_hello-everyone-i-would-like-to-share-with-activity-6859493567258259456-f0Hk"
+            },
+            {
+                "title":"3D reconstruction using stereo photometry",
+                "paragraph":"I have developed a **3D reconstruction** system using **Stereo Photometry**. The system is able to reconstruct a 3D object given multiple images of it with different lightening <br/> **Link** : https://github.com/Ghiles1010/3D_reconstruction/tree/master "
             }
         ]
     },

@@ -14,9 +14,9 @@ html{
 }
 
 body{
-    min-height:297mm;
+    /* min-height:297mm; */
     min-width:210mm;
-    max-height: 297mm;
+    /* max-height: 297mm; */
     max-width: 210mm;
     overflow: scroll;
 }
