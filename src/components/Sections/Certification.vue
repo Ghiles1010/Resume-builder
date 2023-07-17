@@ -4,6 +4,7 @@
 
         <SubSection v-for="(cr, index) in certifications" :key="index"
                     :titles="[cr.title]"
+                    :image="cr.image"
                     :left_band="left_band"
                     :description="markdown(cr.description)">
         </SubSection>

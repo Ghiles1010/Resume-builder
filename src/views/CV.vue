@@ -11,12 +11,12 @@
             <div class="col1">
                 <Experience v-if="this.cv_data.experience" :data="this.cv_data.experience" :left_band="true"/>
                 <Education v-if="this.cv_data.education" :data="this.cv_data.education" :left_band="true"/>
-                <Volunteering v-if="this.cv_data.volunteering" :data="this.cv_data.volunteering" :left_band="true"/>
             </div>
-
+            
             <div class="col2">
                 <Skills v-if="this.cv_data.skills" :data="this.cv_data.skills"/>
                 <Projects v-if="this.cv_data.projects" :data="this.cv_data.projects"/>
+                <Volunteering v-if="this.cv_data.volunteering" :data="this.cv_data.volunteering"/>
                 <Certification v-if="this.cv_data.certifications" :data="cv_data.certifications"/>
                 <Achievement v-if="this.cv_data.achievements" :data="this.cv_data.achievements"/>
                 <Languages v-if="this.cv_data.languages" :data="this.cv_data.languages"/>
@@ -129,11 +129,11 @@ export default {
 }
 
 .col1 {
-    flex: 20 1 0;
+    flex: 27 1 0;
 }
 
 .col2 {
-    flex: 22 1 0;
+    flex: 20 1 0;
     padding-right: 5pt;
 }
 

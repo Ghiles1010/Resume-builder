@@ -4,7 +4,7 @@
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
         "title":"Artificial Intelligence Student",
-        "description":"I'm an intern at Orange and a student at the University of Paris cité. I'm looking for the next opportunity to work on challenging projects in the field of AI.",
+        "description":"I'm an intern at Orange and a student at the University of Paris cité. I'm looking for a job (CDI) the field of Data/AI.",
         "email":"aghiles.djebara@gmail.com",
         "location":"Paris, France",
         "phone":"+33 7 52 02 09 20",
@@ -87,8 +87,14 @@
                 "location": "Paris, France",
                 "itemize":{
                     "title" : "Tasks",
+                    "description":"hi",
                     "items" : [
-                        "I'm working with the networks energy efficiency team. The goal is to **reduce the energy consumption** at the base station level. This especially involves working with time series."
+                        "Prediction of daily base station energy consumption using **Machine Learning**",
+                        "**Time series** manipulation and analysis using **Python**",
+                        "Spatial data analysis using **GeoPandas**",
+                        "Developmment of a web site called **Radio Site Energy**",
+                        "Use of **VueJS** and **FastAPI** to develop the web site",
+                        "**CI/CD** using **Gitlab**"
                     ]
                 }
             },
@@ -97,12 +103,32 @@
                 "image":"logo_eden_ai.png",
                 "entity": "Eden AI",
                 "start_date" : "01/2022",
-                "end_date" : "Present",
+                "end_date" : "06/2022",
                 "location": "Lyon, France (remote)",
                 "itemize":{
                     "title" : "Tasks",
                     "items" : [
-                        "Development of an **API** to perform the **summarization** and **clustering** of **conversations**. The clusters are then labeled using **keyword extraction.**"
+                        "Automatic Summarization of **conversations** using **transformers** (LLMs)",
+                        "Automatic text **Clustering** using **unsupervised learning**",
+                        "Text Labeling using **Keyword Extraction**",
+                        "Deployement using **Docker** and **AWS**"
+                    ]
+                }
+            },
+
+            {
+                "title": "Research intern",
+                "image":"logo_lria.png",
+                "entity": "LRIA",
+                "start_date" : "03/2020",
+                "end_date" : "09/2020",
+                "location": "Algiers",
+                "itemize":{
+                    "title" : "Tasks",
+                    "items" : [
+                        "State of art review of **recommender systems**",
+                        "Implementation of collaborative recommendation algorithms",
+                        "Hybrid algorithm using **Ontologies** and **social** information"
                     ]
                 }
             }
@@ -117,7 +143,7 @@
                 "image":"logo_gdsc.png",
                 "entity": "Google Developer Student Club",
                 "start_date" : "09/2021",
-                "end_date" : "Present",
+                "end_date" : "09/2022",
                 "description" : "GDSC is a science club affliated with Google to promote technology to young people",
                 "itemize":{
                     "title" : "Tasks",
@@ -146,8 +172,9 @@
             "OpenCV",
             "NLP",
             "Data Mining",
-            "Data Viz.",
+            "Data Visualization",
             "Data Bases",
+            "SQL",
             "Communication",
             "Leadership"              
         ]
@@ -157,11 +184,6 @@
         "title":"Projects",
         "content": [
             {
-                "title" : "Automatic text summarization and clustering",
-                "paragraph": "This project consits in taking a set of **conversations** as an input, **summarizing** each one of them and then **clustering** them into a set of **topics**. Each cluster is finally **labeled** using a **Keyword Extraction** algorithm. The main technologies involvled are : **transformers**, **spaCy**, **pytorch**, etc"	
-            },
-
-            {
                 "title": "Inteligent Traffic Light Control System",
                 "paragraph" : "My team and I were selected to participate in a national AI **competition** (AIMx). We designed and developed an **intelligent** system to control traffic lights to **reduce waiting time**. The main AI techniques used for this project are **deep reinforcement learning** and **computer vision**."
             },
@@ -169,11 +191,6 @@
             {
                 "title": "Swarm Robotics for Precision Farming",
                 "paragraph" : "With my team, we have designed a **system of robots** that can work together to perform **precision farming** operations. This project brings together several AI techniques, including **metaheuristic** algorithms, **computer vision**, etc."
-            },
-
-            {
-                "title": "Recommandation System",
-                "paragraph" : "I designed and developed a service **recommendation system** for the **YELP** platform. This system recommends to users **services** that meet their expectations. Several algorithms have been designed and implemented, including a semantic algorithm based on **ontologies**, an algorithm based on **NLP**, and a hybridization between the two."
             }
         ]
     },
@@ -200,11 +217,6 @@
             {
                 "title": "Algeria Disrupt - Constantine, 3rd place",
                 "description":"Algeria disrupt is a **yearly event** organized by the **ministry** to encourage new technologies, we have been chosen as being the **third-best project** if the AI thematic"
-            },
-
-            {
-                "title": "Hult Prize USTHB, 2nd place",
-                "description":"Hult prize is a social entrepreneurship **competition**, we have designed an AI to **predict food waste** along **distribution chains** in order to recover them before they are lost"
             }
         ]
     },

@@ -4,19 +4,19 @@
 
     <Section :title="data.title" :left_band="left_band">
 
-    <SubSection v-for="(vol, index) in volunteerings" :key="index"
-                :titles="[vol.title, vol.entity]" :start_date="vol.start_date" :image="vol.image"
-                :end_date="vol.end_date" :location="vol.location" :description="vol.description"
-                :left_band="left_band">
+      <SubSection v-for="(vol, index) in volunteerings" :key="index"
+                  :titles="[vol.title, vol.entity]" :start_date="vol.start_date" :image="vol.image"
+                  :end_date="vol.end_date" :location="vol.location" :description="vol.description"
+                  :left_band="left_band">
 
 
-            <Itemize class="items" :title="vol.itemize.title" :items="vol.itemize.items"
-            :nb_cols="1"/>
-      
-    </SubSection> 
+              <Itemize class="items" :title="vol.itemize.title" :items="vol.itemize.items"
+              :nb_cols="1"/>
+        
+      </SubSection> 
 
     </Section>
-</div>
+</div> 
 </template>
 
 
