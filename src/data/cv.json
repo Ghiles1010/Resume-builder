@@ -3,7 +3,7 @@
     "personnal":{
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
-        "title":"Data scientist",
+        "title":"Data scientist & Software Engineer",
         "description":"I'm an intern at Orange and a student at the University of Paris cité. I'm looking for a long term job (CDI).",
         "email":"aghiles.djebara@gmail.com",
         "location":"Paris, France",
@@ -79,7 +79,7 @@
         "title":"Experience",
         "content":[
             {
-                "title": "Data Scientist Intern",
+                "title": "Data Scientist & Software Developer Intern",
                 "image":"logo_orange.png",
                 "entity": "Orange",
                 "start_date" : "03/2023",
@@ -158,27 +158,15 @@
 
     "skills":{
         "title":"Other Skills",
-        "content":[
-            "Git",
-            "Azure",
-            "Docker",
-            "Python",
-            "Pandas",
-            "Numpy",
-            "R",
-            "Web Scraping",
-            "Web dev",
-            "Scikit-learn",
-            "Pytorch",
-            "OpenCV",
-            "NLP",
-            "Data Mining",
-            "Data Visualization",
-            "Data Bases",
-            "SQL",
-            "Communication",
-            "Leadership"              
-        ]
+        "content":{
+            "Programming Languages" : "Python, Java, C, C++, R, JavaScript, HTML, CSS, SQL",
+            "Frameworks" : "VueJS, Django, FastAPI, Flask", 
+            "Devops" : "Docker, Git, Gitlab, AWS, Azure, Google Cloud, CI/CD",
+            "Data science" : "Pandas, Numpy, Scikit-learn, Pytorch, Keras, OpenCV, Matplotlib",
+            "Other" : "Linux, Latex, Microsoft Office, Photoshop, Premiere Pro"
+        }
+
+        
     },
 
     "projects":{

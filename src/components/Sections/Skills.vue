@@ -5,9 +5,14 @@
 
           
           <SubSection>
-            <div id="chips">
+            <!-- <div id="chips">
                     <Chip v-for="(skill, index) in skills" :key="index" :title="skill"/>
-            </div>
+            </div> -->
+            
+              <div v-for="key in Object.keys(skills)" :key="key">
+                <p class="bigger"> <span class="bold">{{ key }} </span>: {{ skills[key] }}</p>
+              </div>
+            
           </SubSection>
 
 
@@ -52,10 +57,13 @@ export default {
 
 <style scoped>
 
-    #chips {
-        margin-top: 2pt;
-        display: flex;
-        flex-wrap: wrap;
+    .bigger {
+        font-size:9pt;
     }
 
+    .bold
+    {
+      font-weight: bold;
+      /* font-size:16pt; */
+    }
 </style>
