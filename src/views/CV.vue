@@ -102,9 +102,14 @@ export default {
                 scale: 1,
                 useCORS: true,
                 backgroundColor: '#ffffff'
-            },
-            callback: (d) => d.save('CV.pdf')
+            }
         });
+
+        const pageCount = doc.getNumberOfPages ? doc.getNumberOfPages() : doc.internal.getNumberOfPages();
+        if (pageCount > 1) {
+          doc.deletePage(pageCount);
+        }
+        doc.save('CV.pdf');
     }
   }
 
