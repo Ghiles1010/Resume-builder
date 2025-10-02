@@ -4,7 +4,7 @@
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
         "title":"AI & Software Engineer",
-        "description":"AI & Software Engineer specializing in intelligent system design. I excel in creating innovative solutions, blending strong technical skills with creative problem-solving to tackle real-world challenges.",
+        "description":"AI & Software Engineer focused on **LLM agents**, production ML, and full-stack systems. Shipped voice agents, scaled multi‑client platforms, and built CI/CD and MLOps pipelines.",
         "email":"aghiles.djebara@gmail.com",
         "location":"Paris, France",
         "phone":"+33 7 52 02 09 20",
@@ -25,11 +25,11 @@
                     "itemize" : {
                         "title" : "Tasks",
                         "items" : [
-                            "Implemented a system of vocal AI agents based on LLMs to automate the screening step of recruitment.",
-                            "Built the the foundation Software and Database architecture.",
-                            "Conceived a state machine to software architecture to implement AI agent interactions.",
-                            "Implemented a web interface for the HR team to manage the recruitment process.",
-                            "Worked on the integrations with various ATS"
+                            "Implemented a system of **vocal AI agents** based on **LLMs** to automate the screening step of recruitment, handling **1000+** calls/week.",
+                            "Built the foundation **Software** and **Database** architecture.",
+                            "Conceived a **state machine** software architecture to implement **AI agent interactions**.",
+                            "Implemented a **web interface** for the **HR** team to manage the recruitment process.",
+                            "Worked on the integrations with various **ATS** (Applicant Tracking Systems)"
                         ]
                     }
 
@@ -44,7 +44,7 @@
                     "itemize" : {
                         "title" : "Tasks",
                         "items" : [
-                            "Built the **MVP** and scaled from zero to multiple international clients.",
+                            "Built the **MVP** and scaled from **0 → 60** large international clients controlling **traffic lights**.",
                             "Developed the entire project, including **CI/CD** pipeline, asynchronous architecture, **AI (Reinforcement Learning)**, simulators, and source code.",
                             "Led the transition from pseudo-code to a fully operational system.",
                             "**First hired engineer**, establishing technical foundations and best practices."
@@ -65,7 +65,7 @@
                             "Prediction of daily base station energy consumption using **Machine Learning**",
                             "**Time series** manipulation and analysis using **Python**",
                             "Spatial data analysis using **GeoPandas**",
-                            "Developmment of a web site called **Radio Site Energy**",
+                            "Development of a website called **Radio Site Energy**",
                             "Use of **VueJS** and **FastAPI** to develop the web site",
                             "**CI/CD** using **Gitlab**"
                         ]
@@ -84,7 +84,7 @@
                             "Automatic Summarization of **conversations** using **transformers**, **LLMs**",
                             "Automatic text **Clustering** using **unsupervised learning**",
                             "Text Labeling using **Keyword Extraction**",
-                            "Developmment of a web site called **Data Voice** using **VueJS** and **Flask**",
+                            "Development of a website called **Data Voice** using **VueJS** and **Flask**",
                             "RNN, NLP, Transformers, GAN, Generative AI, catboost, XGBoost"
                         ]
                     }
@@ -144,7 +144,7 @@
                 "entity": "Google Developer Student Club",
                 "start_date" : "09/2021",
                 "end_date" : "09/2022",
-                "description" : "GDSC is a science club affliated with Google to promote technology to young people",
+                "description" : "GDSC is a science club affiliated with Google to promote technology to young people",
                 "itemize":{
                     "title" : "Tasks",
                     "items" : [
@@ -158,12 +158,11 @@
     "skills":{
         "title":"Other Skills",
         "content":{
-            "Keywords" : "RNN, NLP, Transformers, GAN, Generative AI, catboost, XGBoost, OpenAI api, Deep Learning",
-            "Programming Languages" : "Python, JavaScript, C#",
-            "Frameworks" : "Django, FastAPI, Flask", 
-            "Devops" : "Docker, Nginx, Git, Gitlab, AWS, Azure, Google Cloud, CI/CD, REST API, Mlflow, LLMs",
-            "Data science" : "RLlib, Pytorch, OpenCV, Tensorflow",
-            "Other" : "Linux, Latex, Microsoft Office"
+            "Core" : "Python, JavaScript, FastAPI, Django, Flask, REST API",
+            "AI/ML" : "LLM Agents, NLP, Transformers, RLlib, PyTorch, Generative AI, Deep Learning",
+            "Data" : "pandas, NumPy, OpenCV",
+            "DevOps" : "Docker, Nginx, Git, GitLab, CI/CD, MLflow, AWS, Azure, Google Cloud",
+            "Other" : "Linux, LaTeX"
         }
 
         
@@ -173,7 +172,7 @@
         "title":"Projects",
         "content": [
             {
-                "title": "Inteligent Traffic Light Control System",
+                "title": "Intelligent Traffic Light Control System",
                 "paragraph" : "My team and I were selected to participate in a national AI **competition** (AIMx). We designed and developed an **intelligent** system to control traffic lights to **reduce waiting time**. The main AI techniques used for this project are **deep reinforcement learning** and **computer vision**. <br/> **Link** : https://www.youtube.com/watch?v=HgA-qZcDR7A&ab_channel=GhilesDjebara"
             },
 
@@ -200,12 +199,12 @@
         "content":[
             {
                 "title": "Scholarship",
-                "description":"I recieved a scholarship of the french government to study in France. It is awarded to the most deserving students"
+                "description":"I received a scholarship from the French government to study in France. It is awarded to the most deserving students"
             },
 
             {
                 "title": "Algeria Disrupt - Constantine, 3rd place",
-                "description":"Algeria disrupt is a **yearly event** organized by the **ministry** to encourage new technologies, we have been chosen as being the **third-best project** if the AI thematic"
+                "description":"Algeria Disrupt is a **yearly event** organized by the **ministry** to encourage new technologies; we were chosen as the **third-best project** in the AI theme"
             }
         ]
     },
@@ -213,7 +212,7 @@
     "languages":{
         "title":"Languages",
         "content":[
-            {"name" : "French", "level" : "Billingual (TCF 699/699)"},
+                            {"name" : "French", "level" : "Bilingual (TCF 699/699)"},
             {"name" : "English", "level" : "Proficient IELTS (7/9)"}
             
         ]
