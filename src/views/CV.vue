@@ -78,41 +78,33 @@ export default {
     async generate_pdf(){
         let cv_div = document.getElementById('CV');
         
-        // Get the actual dimensions of the CV in pixels
-        const cvWidth = cv_div.scrollWidth;
-        const cvHeight = cv_div.scrollHeight;
-        
-        // Create PDF with A4 format in mm and px scaling hotfix
-        var doc = new jsPDF({
-            orientation: 'portrait',
-            unit: 'mm',
-            format: 'a4',
-            hotfixes: ['px_scaling'],
-            compress: true
+        // Compute dynamic page height to keep single page, fixed width
+        const cvWidthPx = cv_div.scrollWidth;
+        const cvHeightPx = cv_div.scrollHeight;
+        const pageWidthMm = 210; // fixed width
+        const pageHeightMm = (cvHeightPx * pageWidthMm) / cvWidthPx; // scale height
+
+                const doc = new jsPDF({
+          orientation: 'portrait',
+          unit: 'px',
+          format: [cvWidthPx, cvHeightPx],
+          hotfixes: ['px_scaling'],
+          compress: true
         });
 
-        // Render to canvas first to control scaling precisely
-        const pageWidth = doc.internal.pageSize.getWidth();
-        const pageHeight = doc.internal.pageSize.getHeight();
-
-        const canvas = await html2canvas(cv_div, {
-            scale: 2,
-            useCORS: true,
-            logging: false,
-            backgroundColor: '#ffffff'
+        await doc.html(cv_div, {
+            x: 0,
+            y: 0,
+            margin: [0, 0, 0, 0],
+            width: cvWidthPx,
+            windowWidth: cvWidthPx,
+            html2canvas: {
+                scale: 1,
+                useCORS: true,
+                backgroundColor: '#ffffff'
+            },
+            callback: (d) => d.save('CV.pdf')
         });
-        const imgData = canvas.toDataURL('image/png');
-
-        // Calculate image dimensions to fit width
-        const imgWidth = pageWidth;
-        const imgHeight = (canvas.height * imgWidth) / canvas.width;
-
-        // If height exceeds page, scale to fit height instead
-        const finalWidth = imgHeight > pageHeight ? (pageHeight * canvas.width) / canvas.height : imgWidth;
-        const finalHeight = imgHeight > pageHeight ? pageHeight : imgHeight;
-
-        doc.addImage(imgData, 'PNG', 0, 0, finalWidth, finalHeight);
-        doc.save('CV.pdf');
     }
   }
 
