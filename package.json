@@ -3,22 +3,21 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service serve",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vue-cli-service build"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "html2canvas": "^1.4.1",
-    "jspdf": "^2.5.1",
+    "jspdf": "^3.0.3",
     "marked": "^4.0.16",
     "vue": "^2.6.11",
     "vue-html-to-paper": "^1.4.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.15",
-    "@vue/cli-service": "~4.5.15",
-    "html-webpack-inline-source-plugin": "0.0.10",
-    "html-webpack-plugin": "^4.5.2",
+    "@vue/cli-plugin-babel": "^5.0.9",
+    "@vue/cli-service": "^5.0.9",
+    "cross-env": "^7.0.3",
     "vue-template-compiler": "^2.6.11"
   }
 }

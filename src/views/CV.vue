@@ -49,6 +49,7 @@ import Interest from '@/components/Sections/Interest.vue'
 
 
 import jsPDF from "jspdf"
+import html2canvas from 'html2canvas'
 
 
 
@@ -74,37 +75,44 @@ export default {
     },
     methods:{
 
-    generate_pdf(){
-
+    async generate_pdf(){
         let cv_div = document.getElementById('CV');
+        
+        // Get the actual dimensions of the CV in pixels
+        const cvWidth = cv_div.scrollWidth;
+        const cvHeight = cv_div.scrollHeight;
+        
+        // Create PDF with A4 format in mm and px scaling hotfix
+        var doc = new jsPDF({
+            orientation: 'portrait',
+            unit: 'mm',
+            format: 'a4',
+            hotfixes: ['px_scaling'],
+            compress: true
+        });
 
-        var doc = new jsPDF('p', 'px', [cv_div.offsetWidth, cv_div.offsetHeight]);   
+        // Render to canvas first to control scaling precisely
+        const pageWidth = doc.internal.pageSize.getWidth();
+        const pageHeight = doc.internal.pageSize.getHeight();
 
-        // doc.addFont('Ubuntu', 'Ubuntu', 'normal');
+        const canvas = await html2canvas(cv_div, {
+            scale: 2,
+            useCORS: true,
+            logging: false,
+            backgroundColor: '#ffffff'
+        });
+        const imgData = canvas.toDataURL('image/png');
 
-        // change font
-        // doc.setFont('Ubuntu');
+        // Calculate image dimensions to fit width
+        const imgWidth = pageWidth;
+        const imgHeight = (canvas.height * imgWidth) / canvas.width;
 
-        // print disponible fonts
-        console.log(doc.getFontList());
+        // If height exceeds page, scale to fit height instead
+        const finalWidth = imgHeight > pageHeight ? (pageHeight * canvas.width) / canvas.height : imgWidth;
+        const finalHeight = imgHeight > pageHeight ? pageHeight : imgHeight;
 
-        let options = {
-            callback: function (doc) {
-                doc.save();
-            }
-        }
-
-        var pageCount = doc.internal.getNumberOfPages();
-
-        console.log(pageCount);
-
-        if (pageCount>1){
-            console.log(pageCount);
-            doc.deletePage(pageCount);
-        }
-
-
-        doc.html(cv_div, options);
+        doc.addImage(imgData, 'PNG', 0, 0, finalWidth, finalHeight);
+        doc.save('CV.pdf');
     }
   }
 
@@ -138,4 +146,5 @@ export default {
 }
 
 </style>
+ 
  

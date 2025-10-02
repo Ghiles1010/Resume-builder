@@ -3,8 +3,8 @@
     "personnal":{
         "first_name":"Aghiles",
         "last_name":"DJEBARA",
-        "title":"Data scientist & Software Engineer",
-        "description":"I'm an intern at Orange and a student at the University of Paris cité. I'm looking for a long term job (CDI).",
+        "title":"AI & Software Engineer",
+        "description":"AI & Software Engineer specializing in intelligent system design. I excel in creating innovative solutions, blending strong technical skills with creative problem-solving to tackle real-world challenges.",
         "email":"aghiles.djebara@gmail.com",
         "location":"Paris, France",
         "phone":"+33 7 52 02 09 20",
@@ -12,6 +12,85 @@
         "github":"https://github.com/Ghiles1010"
     },
 
+    "experience":{
+        "title":"Experience",
+        "content":[
+                {
+                    "title" : "AI Software Engineer",
+                    "image" : "omogen.png",
+                    "entity" : "Omogen",
+                    "start_date" : "05/2025",
+                    "end_date" : "Present",
+                    "location" : "Paris, France",
+                    "itemize" : {
+                        "title" : "Tasks",
+                        "items" : [
+                            "Implemented a system of vocal AI agents based on LLMs to automate the screening step of recruitment.",
+                            "Built the the foundation Software and Database architecture.",
+                            "Conceived a state machine to software architecture to implement AI agent interactions.",
+                            "Implemented a web interface for the HR team to manage the recruitment process.",
+                            "Worked on the integrations with various ATS"
+                        ]
+                    }
+
+                },
+                {
+                    "title" : "AI Software Engineer",
+                    "image" : "wisp.png",
+                    "entity" : "Wisp Solutions",
+                    "start_date" : "10/2023",
+                    "end_date" : "05/2025",
+                    "location" : "Paris, France",
+                    "itemize" : {
+                        "title" : "Tasks",
+                        "items" : [
+                            "Built the **MVP** and scaled from zero to multiple international clients.",
+                            "Developed the entire project, including **CI/CD** pipeline, asynchronous architecture, **AI (Reinforcement Learning)**, simulators, and source code.",
+                            "Led the transition from pseudo-code to a fully operational system.",
+                            "**First hired engineer**, establishing technical foundations and best practices."
+                        ]
+                    }
+
+                },
+                {
+                    "title": "Data Scientist & Software Developer Intern",
+                    "image":"logo_orange.png",
+                    "entity": "Orange",
+                    "start_date" : "03/2023",
+                    "end_date" : "08/2023",
+                    "location": "Paris, France",
+                    "itemize":{
+                        "title" : "Tasks",
+                        "items" : [
+                            "Prediction of daily base station energy consumption using **Machine Learning**",
+                            "**Time series** manipulation and analysis using **Python**",
+                            "Spatial data analysis using **GeoPandas**",
+                            "Developmment of a web site called **Radio Site Energy**",
+                            "Use of **VueJS** and **FastAPI** to develop the web site",
+                            "**CI/CD** using **Gitlab**"
+                        ]
+                    }
+                },
+                {
+                    "title": "Artificial Intelligence Developer Intern",
+                    "image":"logo_eden_ai.png",
+                    "entity": "Eden AI",
+                    "start_date" : "01/2022",
+                    "end_date" : "06/2022",
+                    "location": "Lyon, France (remote)",
+                    "itemize":{
+                        "title" : "Tasks",
+                        "items" : [
+                            "Automatic Summarization of **conversations** using **transformers**, **LLMs**",
+                            "Automatic text **Clustering** using **unsupervised learning**",
+                            "Text Labeling using **Keyword Extraction**",
+                            "Developmment of a web site called **Data Voice** using **VueJS** and **Flask**",
+                            "RNN, NLP, Transformers, GAN, Generative AI, catboost, XGBoost"
+                        ]
+                    }
+                }
+            ]
+        },
     "education":{
         "title":"Education",
         "content" : [
@@ -36,101 +115,21 @@
             },
 
             {
-                "title": "Master 2 degree - Intelligent Computer Systems",
+                "title": "Engineering degree - Intelligent Computer Systems",
                 "image":"logo_usthb.png",
-                "school": "University of Science and Technology of Babezouar",
+                "school": "USTHB",
                 "start_date" : "09/2020",
                 "end_date" : "06/2022",
                 "itemize":  {
                     "title" : "Main courses",
                     "items" : [
                         "Machine Learning",
-                        "Metaheuristics",
+                        "Software Engineering",
                         "Agent Technology",
                         "Data Mining",
                         "Computer Vision",
                         "Problem Solving"
                     ]     
-                }
-            },
-
-            {
-                "title": "Bachelor's degree - Computer Science",
-                "image":"logo_usthb.png",
-                "school": "University of Science and Technology of Babezouar",
-                "start_date" : "09/2017",
-                "end_date" : "10/2020",
-                "itemize":  {
-                    "title" : "Main courses",
-                    "items" : [
-                        "Software Engineering",
-                        "Semantic Web",
-                        "Operating Systems",
-                        "Web Scraping",
-                        "Computer Architectures",
-                        "Mathematics"
-                    ]     
-                } 
-            }
-        ]
-    },
-
-    "experience":{
-        "title":"Experience",
-        "content":[
-            {
-                "title": "Data Scientist & Software Developer Intern",
-                "image":"logo_orange.png",
-                "entity": "Orange",
-                "start_date" : "03/2023",
-                "end_date" : "Present",
-                "location": "Paris, France",
-                "itemize":{
-                    "title" : "Tasks",
-                    "description":"hi",
-                    "items" : [
-                        "Prediction of daily base station energy consumption using **Machine Learning**",
-                        "**Time series** manipulation and analysis using **Python**",
-                        "Spatial data analysis using **GeoPandas**",
-                        "Developmment of a web site called **Radio Site Energy**",
-                        "Use of **VueJS** and **FastAPI** to develop the web site",
-                        "**CI/CD** using **Gitlab**"
-                    ]
-                }
-            },
-            {
-                "title": "Artificial Intelligence Developer Intern",
-                "image":"logo_eden_ai.png",
-                "entity": "Eden AI",
-                "start_date" : "01/2022",
-                "end_date" : "06/2022",
-                "location": "Lyon, France (remote)",
-                "itemize":{
-                    "title" : "Tasks",
-                    "items" : [
-                        "Automatic Summarization of **conversations** using **transformers** (LLMs)",
-                        "Automatic text **Clustering** using **unsupervised learning**",
-                        "Text Labeling using **Keyword Extraction**",
-                        "Developmment of a web site called **Data Voice** using **VueJS** and **Flask**",
-                        "Deployement using **Docker** and **AWS**"
-                    ]
-                }
-            },
-
-            {
-                "title": "Research intern",
-                "image":"logo_lria.png",
-                "entity": "LRIA",
-                "start_date" : "03/2020",
-                "end_date" : "09/2020",
-                "location": "Algiers",
-                "itemize":{
-                    "title" : "Tasks",
-                    "items" : [
-                        "State of art review of **recommender systems**",
-                        "Implementation of collaborative recommendation algorithms",
-                        "Hybrid algorithm using **Ontologies** and **social** information"
-                    ]
                 }
             }
         ]
@@ -159,11 +158,12 @@
     "skills":{
         "title":"Other Skills",
         "content":{
-            "Programming Languages" : "Python, Java, C, C++, R, JavaScript, HTML, CSS, SQL",
-            "Frameworks" : "VueJS, Django, FastAPI, Flask", 
-            "Devops" : "Docker, Git, Gitlab, AWS, Azure, Google Cloud, CI/CD",
-            "Data science" : "Pandas, Numpy, Scikit-learn, Pytorch, Keras, OpenCV, Matplotlib",
-            "Other" : "Linux, Latex, Microsoft Office, Photoshop, Premiere Pro"
+            "Keywords" : "RNN, NLP, Transformers, GAN, Generative AI, catboost, XGBoost, OpenAI api, Deep Learning",
+            "Programming Languages" : "Python, JavaScript, C#",
+            "Frameworks" : "Django, FastAPI, Flask", 
+            "Devops" : "Docker, Nginx, Git, Gitlab, AWS, Azure, Google Cloud, CI/CD, REST API, Mlflow, LLMs",
+            "Data science" : "RLlib, Pytorch, OpenCV, Tensorflow",
+            "Other" : "Linux, Latex, Microsoft Office"
         }
 
         
@@ -180,10 +180,6 @@
             {
                 "title": "Swarm Robotics for Precision Farming",
                 "paragraph" : "With my team, we have designed a **system of robots** that can work together to perform **precision farming** operations. This project brings together several AI techniques, including **metaheuristic** algorithms, **computer vision**, etc. <br/> **Link** : https://www.linkedin.com/posts/ghiles-djebara-7005b417a_hello-everyone-i-would-like-to-share-with-activity-6859493567258259456-f0Hk"
-            },
-            {
-                "title":"3D reconstruction using stereo photometry",
-                "paragraph":"I have developed a **3D reconstruction** system using **Stereo Photometry**. The system is able to reconstruct a 3D object given multiple images of it with different lightening <br/> **Link** : https://github.com/Ghiles1010/3D_reconstruction/tree/master "
             }
         ]
     },

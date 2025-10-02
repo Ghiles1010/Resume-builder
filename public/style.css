@@ -30,9 +30,9 @@ strong{
 
 
 *{
-    /* font-family: Ubuntu; */
-    font-family: Helvetica;
-    font-weight: 200;
+    /* Rounded, readable font */
+    font-family: 'Nunito', Helvetica, Arial, sans-serif;
+    font-weight: 300;
     margin: 0;
     padding: 0;
   }
@@ -47,3 +47,49 @@ strong{
     font-family: 'Ubuntu';
     src: local('Ubuntu');
 } */
+
+/* Print styles to ensure PDF looks exactly like the browser view */
+@media print {
+    html {
+        background-color: white;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: visible;
+    }
+    
+    #CV {
+        margin: 0;
+        padding: 0;
+        /* Scale down to fit on one page */
+        transform: scale(0.85);
+        transform-origin: top left;
+        width: 117.65%; /* Compensate for 0.85 scale (100/0.85) */
+        height: auto;
+    }
+    
+    /* Control page size - you can change this to fit your content */
+    /* Options:
+       - A4 portrait (210mm x 297mm) - default
+       - A4 landscape
+       - A3 portrait (297mm x 420mm) - taller page
+       - legal portrait (216mm x 356mm) - US legal size
+       - Custom: size: 210mm 350mm; (width x height)
+    */
+    @page {
+        size: A4 portrait;
+        margin: 5mm;
+    }
+    
+    /* Prevent ALL page breaks to keep everything on one page */
+    #CV, #CV * {
+        page-break-before: avoid !important;
+        page-break-after: avoid !important;
+        page-break-inside: avoid !important;
+        break-before: avoid !important;
+        break-after: avoid !important;
+        break-inside: avoid !important;
+    }
+}
